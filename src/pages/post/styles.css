@@ -1,0 +1,36 @@
+.post-info{
+  margin: auto;
+}
+.image{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+.image img{
+  width: 100%;
+  height: auto;
+}
+.container{
+  max-width: 550px;
+  padding: 50px;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.title h2{
+  border-bottom: 1px solid #333;
+  font-style: bold;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.box-text{
+  text-align: center;
+}
+.box-text p{
+  text-align: justify;
+  border-top: 20px;
+}

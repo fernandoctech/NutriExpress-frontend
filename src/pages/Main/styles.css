@@ -1,0 +1,44 @@
+.main{
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:40px;
+  
+}
+.box{
+    display: block;
+    margin-top: auto;
+}
+.container{
+  background-color: white;
+  max-width: 750px;
+  height: 480px;
+  overflow: hidden;
+  
+}
+
+.card-img img{
+  width:100%;
+  height: 482px;
+}
+.card-content{
+  color: white;
+
+  
+}
+
+
+@media screen and (max-width: 992px) {
+  .card{
+  width: 340px;
+  height: 480px;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;  
+  cursor: pointer;
+  margin-top: 5px;
+
+}
+
+}

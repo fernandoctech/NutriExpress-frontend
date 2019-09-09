@@ -1,0 +1,18 @@
+@font-face{
+  font-family: playlist;
+  src: url(playlist_script-webfont.woff);
+}
+header#main-header{
+  height: 60px;
+  width: 100%;
+  font-size: 18px;
+  background: #7ed957;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: playlist;
+  font-size: 35px;
+  
+}

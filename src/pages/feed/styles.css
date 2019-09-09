@@ -1,0 +1,130 @@
+.product-list{
+    max-width: 550px;
+    margin: 0px auto 0;
+    padding:  40px;  
+    
+}
+.author{
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  display: flex;
+}
+.nameautor{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin-left: 10px;
+  margin-top:5px;
+
+  
+}
+.date{
+  width: inherit;
+  display: flex;
+  align-items: flex-start;
+  justify-content:flex-end;
+}
+
+.perfil{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+
+}
+.perfil img{
+  background: #7ed957;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+.product-list article:hover{
+    box-shadow: 0 16px 26px 0 rgba(0,0,0,0.2);
+}
+.container{
+    padding: 20px;
+    height: auto;
+}
+.box-container{
+    padding:  10px;  
+    margin-top:2px;
+}
+.product-list article{
+    padding: 0;
+    background: #fff;
+    border:1px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border:1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.box-img img{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    
+}
+
+.product-list article p{
+    font-size: 16px;
+    color: #999;
+    margin-top:5px;
+    line-height: 24px; 
+}
+.acessar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acessar a{
+    height: 36px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: none;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: #7ed957;
+    transition:  all 0.2s;
+    border-radius: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.product-list article a:hover{
+    color:#444;
+    
+}
+.links{
+  display: flex;
+}
+.link{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  font-size: 30px;
+  width: 100%;
+}
+
+.product-list article button{
+  border: none;
+  background: none; 
+  margin-left: 10px;
+}
+
+
+.fas{
+  font-size: 30px;
+  color: #444;
+}
+.fas:hover{
+  
+  color:#7ed957;
+}
