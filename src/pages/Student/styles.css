@@ -30,7 +30,7 @@
   height: 90px;;
 }
 .car-text{
-  display: flex;
+  display: block;
   align-items: center;
   margin-left: 15px;
 }

@@ -34,7 +34,7 @@ export default class Student extends Component {
               </div>
               <div className="car-text">
                 <strong>{author.name}</strong>
-                <p>: Estudante de Nutrição</p> 
+                <p>Estudante de Nutrição</p> 
                 
               </div>
             </div>
