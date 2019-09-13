@@ -9,8 +9,7 @@ import Student from './pages/Student';
 const Routes = () =>(
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Main} />
-      <Route path="/feed" component={Feed} />
+      <Route exact path="/" component={Feed} />
       <Route path="/post/:id" component={Post} />
       <Route path="/nutri" component={Nutri} />
       <Route path="/student" component={Student}/>

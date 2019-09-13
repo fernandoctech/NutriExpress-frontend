@@ -13,7 +13,7 @@ width: 100%;
 }
 .container{
   max-width: 550px;
-  padding: 50px;
+  
 }
 .title{
   display: flex;
@@ -33,4 +33,7 @@ width: 100%;
 .box-text p{
   text-align: justify;
   border-top: 20px;
+}
+.text-title{
+  font-size: 20px;
 }

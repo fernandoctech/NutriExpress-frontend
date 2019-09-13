@@ -27,7 +27,8 @@ export default class Post extends Component {
         </div>
         <div className="container">
           <div className="title">
-            <h2>{post.title}</h2>
+            <strong className="text-title">{post.title}</strong>
+            <br/><br/><br/>
           </div>
           <div className="box-text">
             <h4>{post.title_p1}</h4>
