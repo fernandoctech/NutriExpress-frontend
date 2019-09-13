@@ -38,7 +38,7 @@ export default class Post extends Component {
             <h4>{post.title_p3}</h4>
             <p>{post.paragraph_3}</p>
             <h4>{post.title_p4}</h4>
-            <ul>
+            <ul className="list-text">
               <li>{list.item1}</li>  
               <li>{list.item2}</li>  
               <li>{list.item3}</li>  
