@@ -1,0 +1,36 @@
+.content{
+  max-width: 550px;
+
+}
+.info h1 {
+  text-align: center;
+}
+.info h3{
+  text-align: center;
+}
+.card-body{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  padding: 0;
+    background: #fff;
+    border:1px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border:1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 120px;
+    align-items: center;
+}
+.card-image img{
+  width: 100px;
+  border-radius: 100px;
+  height: 90px;;
+}
+.car-text{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
