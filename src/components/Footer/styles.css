@@ -4,9 +4,15 @@
 }
 #main-footer{
   width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7ed957;
 }
 .content{
-  max-width: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
 }
 .info h1 {
