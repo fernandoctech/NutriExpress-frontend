@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
+import {Link} from 'react-router-dom';
 
 import './styles.css';
 
@@ -22,6 +23,7 @@ export default class Post extends Component {
     const { post, list } = this.state;
     return (
       <div className="post-info">
+        <div className="nav"><Link to={'/'}><i class="far fa-arrow-alt-circle-left"></i></Link></div>
         <div className="image">
           <img src={post.image} alt=""/>
         </div>
