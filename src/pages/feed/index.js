@@ -21,6 +21,16 @@ export default class Feed extends Component {
   render() {
     return (
       <div className="product-list">
+        <div className="nav">
+          <div className="nav-left">
+            <Link to={'/'}><i class="far fa-arrow-alt-circle-left"></i></Link>
+          </div>
+
+          <div className="nav-right">
+            <Link to={'/student'}><i class="fas fa-users"></i></Link>
+            <Link to={'/nutri'}><i class="fas fa-phone-alt"></i></Link>
+          </div>
+        </div>
       {this.state.posts.map(post => (
         <article key={post.id} >
           <div className="author">

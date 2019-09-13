@@ -23,7 +23,16 @@ export default class Post extends Component {
     const { post, list } = this.state;
     return (
       <div className="post-info">
-        <div className="nav"><Link to={'/'}><i class="far fa-arrow-alt-circle-left"></i></Link></div>
+        <div className="nav">
+          <div className="nav-left">
+            <Link to={'/'}><i class="far fa-arrow-alt-circle-left"></i></Link>
+          </div>
+         
+          <div className="nav-right">
+            <Link to={'/student'}><i class="fas fa-users"></i></Link>
+            <Link to={'/nutri'}><i class="fas fa-phone-alt"></i></Link>
+          </div>
+        </div>
         <div className="image">
           <img src={post.image} alt=""/>
         </div>
