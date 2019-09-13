@@ -52,7 +52,7 @@ width: 100%;
   color: #7ed957;
 }
 .nav-right{
-  width: 85%;
+width: 50%;
 display: flex;
 justify-content: flex-end;
 align-items: center;
