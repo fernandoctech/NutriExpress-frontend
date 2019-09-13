@@ -8,7 +8,7 @@ export default class Nutri extends Component{
   render() {
     
     return(
-      <div className="content">
+      <div className="content-io">
         <div className="nav">
           <div className="nav-left">
             <Link to={'/'}><i class="far fa-arrow-alt-circle-left"></i></Link>
